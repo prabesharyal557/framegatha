@@ -30,3 +30,8 @@ header{position:sticky;top:0;z-index:40;background-color:#f7ead5;background-imag
 footer{background-color:#efddbd;background-image:var(--wood-grain)}.footer-bottom{border-color:#d6b991}.footer-top p,.footer-top a,.footer-top small,.footer-bottom{color:#725a3c}
 .fg-modal{background:#fffaf1!important}.payment{background:#f1dfc1}.bag b{background:#e6cea8;color:#52381d}
 @media(max-width:760px){html{scroll-padding-top:103px}nav{top:100%;background:#f7ead5;background-image:var(--wood-grain);max-height:calc(100dvh - 83px);overflow-y:auto;border-bottom:1px solid #d8bd96}}
+/* Gift photographs are complete product shots, not framed artwork. */
+.art.product-photo{padding:0;background:#f0dfc3}
+.art.product-photo .picture{width:100%;height:100%;max-width:none;padding:0;border:0;border-radius:0;box-shadow:none;transform:none;background:transparent}
+.art.product-photo img{display:block;width:100%;height:100%;object-fit:contain}
+.cart-lines .art.product-photo{padding:0;overflow:hidden}

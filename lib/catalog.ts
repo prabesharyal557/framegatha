@@ -7,3 +7,6 @@ export const initialProducts = [
  {id:'shirt',name:'Wear Your Own Story',category:'Personalized gifts',price:950,detail:'Custom printed T-shirt · Size confirmed by phone',image:'',style:'shirt'}
 ];
 export type Product=typeof initialProducts[number];
+
+// Existing catalog records with no uploaded image use these studio mockups.
+export const giftProductImages:Record<string,string>={cup:'/products/printed-mug.png',shirt:'/products/printed-tshirt.png'};
