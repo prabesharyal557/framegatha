@@ -10,3 +10,23 @@
 /* Readable controls and compact small-screen typography. */
 .hero-copy>p{font-size:16px}.section-heading>p,.booking p{font-size:16px}.benefits span,nav,.primary,.text-link,.filters button,.product-info button,.product-info p,.booking-steps p,.booking>div>a,.footer-top a,.footer-top h3,.fg-modal label,.muted{font-size:14px}.product-info p{line-height:1.5}.catalog-notice,.product-tag,.hero-note,.hero-note small,.footer-top small,.footer-bottom,.footer-bottom button,.album-empty p,.payment p{font-size:12px}.announcement{font-size:12px}.hero-note{font-size:14px}.product-info strong{font-size:16px}.booking-steps h3{font-size:18px}.booking{gap:45px}.scene-caption{bottom:13%}
 @media(max-width:760px){.hero h1{font-size:46px;letter-spacing:-1.8px}.hero-copy>p{font-size:16px}.hero-buttons{gap:18px}.hero-buttons .text-link{font-size:14px}.hero-note{font-size:12px}.hero-note small{font-size:12px}.benefits span{font-size:12px}.filters button{font-size:14px}.product-info p{font-size:12px;min-height:36px}.product-info button{font-size:14px}.product-info h3{font-size:18px}.booking p{font-size:14px}.announcement{font-size:10px}.scene-caption{bottom:13%;font-size:14px}.section-heading>p{font-size:14px}.product-tag{font-size:10px}}
+/* Light oak theme and persistent navigation. */
+:root,.dark{--background:#fffaf1;--foreground:#493522;--card:#fffdf7;--card-foreground:#493522;--popover:#fffaf1;--popover-foreground:#493522;--primary:#76512e;--primary-foreground:#fffaf1;--secondary:#f1dfc4;--secondary-foreground:#493522;--muted:#f5e8d3;--muted-foreground:#776046;--accent:#eed8b9;--accent-foreground:#493522;--border:#dbc3a1;--input:#d6bc98;--ring:#9a6a38;--wood-grain:repeating-linear-gradient(2deg,transparent 0 7px,#97683108 8px,transparent 10px 21px),repeating-linear-gradient(178deg,transparent 0 37px,#b386480a 39px,transparent 43px 76px)}
+html{scroll-padding-top:125px}
+body{background-color:var(--background)}
+header{position:sticky;top:0;z-index:40;background-color:#f7ead5;background-image:var(--wood-grain);border-bottom-color:#d8bd96;box-shadow:0 3px 16px #6b4a2012}
+.announcement{background:#e6cfaa;color:#533b22;background-image:var(--wood-grain)}
+.hero-scene{background-color:#ecd5af;background-image:var(--wood-grain),radial-gradient(ellipse at 60% 30%,#fff4dcb0,transparent 70%)}
+.wood{background-color:#f0dfc3;background-image:var(--wood-grain)}
+.wood .picture{border-color:#b48750;box-shadow:4px 9px 12px #79502a28,inset 0 0 3px #79502a66;background:#fffaf0}
+.small-frame .picture{border-color:#c09761;background:#fffaf0}
+.benefits{background:#faf0df;border-color:#e4cfad}.benefits span{border-color:#dec6a0;color:#655033}
+.primary{background:#76512e;border-color:#76512e;color:#fffaf1}.primary:hover{background:#604023}
+.filters button.active,.filters button:hover{background:#76512e;border-color:#76512e;color:#fffaf1}
+.booking{background-color:#ead2ac;background-image:var(--wood-grain),radial-gradient(at 0 100%,#fff5d78c,transparent 75%);color:#493522;border:1px solid #dcbf95}
+.booking .eyebrow{color:#71512e}.booking em{color:#845a2d}.booking p,.booking>div>a{color:#6a5136}.booking-steps>div{border-color:#bb976447}.booking-steps>div>span{color:#805b30}
+.light{background:#fff8e9;border-color:#c4a275;color:#5b3f22}.light:hover{background:#f8e5c6}
+.album-empty{background:#f6e7cf;background-image:var(--wood-grain);border-color:#dcc19b}.empty-mark{border-color:#cfaf81;color:#876336}
+footer{background-color:#efddbd;background-image:var(--wood-grain)}.footer-bottom{border-color:#d6b991}.footer-top p,.footer-top a,.footer-top small,.footer-bottom{color:#725a3c}
+.fg-modal{background:#fffaf1!important}.payment{background:#f1dfc1}.bag b{background:#e6cea8;color:#52381d}
+@media(max-width:760px){html{scroll-padding-top:103px}nav{top:100%;background:#f7ead5;background-image:var(--wood-grain);max-height:calc(100dvh - 83px);overflow-y:auto;border-bottom:1px solid #d8bd96}}
